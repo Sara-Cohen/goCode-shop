@@ -1,3 +1,4 @@
+
 import Product from "./Product";
 
 const Products = () => {
@@ -37,5 +38,4 @@ const Products = () => {
     </section>
   );
 };
-
 export default Products;
