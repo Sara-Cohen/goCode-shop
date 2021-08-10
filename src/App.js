@@ -1,10 +1,9 @@
-/* eslint-disable no-unused-vars */
 import "./App.css";
 import Header from "./components/Header";
-import Product from "./components/Product";
+import Products from "./components/Products";
 
 const App = () => {
-  const thaProducts = [
+  const products = [
     {
       id: 1,
       title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -195,10 +194,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">My Project (o.o)</header> <Header />
-      {thaProducts.map((item) =>(<Product title= {item.title}
-        
-        price={item.price}description={item.description} category={item.category}image={item.image} />))}
-      
+      <Products products={products} />
     </div>
   );
 };
