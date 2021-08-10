@@ -1,4 +1,6 @@
-const Product = ({ image, title, price }) => {
+//import App from "../App";
+
+const Product = ({ image, title, price,description,category }) => {
   return (
     <div className="product-card">
       <div className="product-image">
@@ -7,6 +9,10 @@ const Product = ({ image, title, price }) => {
       <div className="product-info">
         <h5>{title}</h5>
         <h6>{price}</h6>
+        <h5>{description}
+        <br/>
+        {category}
+        </h5>
       </div>
     </div>
   );
