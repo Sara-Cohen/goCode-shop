@@ -1,8 +1,8 @@
 import Product from "./Product";
 
-function Products({products}) {
+const Products = ({ products }) => {
   return (
-    <section  className="products">
+    <section className="products">
       {products.map((product) => (
         <Product
           id={product.id}
@@ -15,6 +15,6 @@ function Products({products}) {
       ))}
     </section>
   );
-}
+};
 
 export default Products;
