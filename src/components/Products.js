@@ -1,5 +1,5 @@
 import Product from "./Product";
-
+import './Products.css';
 const Products = ({ products }) => {
   return (
     <section className="products">
