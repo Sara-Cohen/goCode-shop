@@ -33,44 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// export default function Product({
-//   id,
-//   image,
-//   title,
-//   price,
-//   description,
-//   category,
-// }) {
-//
 
-//   return (
-//       <Paper className={classes.paper}>
-//         <Grid>
-//           <ButtonBase className={classes.image}>
-//             <img className={classes.img} alt="complex" src={image} />
-//           </ButtonBase>
-
-//           <Typography gutterBottom variant="subtitle1">
-//             {title}{" "}
-//           </Typography>
-//           <Typography variant="body2" gutterBottom>
-//             {description}{" "}
-//           </Typography>
-//           <Typography variant="body2" color="textSecondary">
-//             ID:{id}
-//             <br />
-//             {category}{" "}
-//           </Typography>
-//         </Grid>
-//
-
-//         <Grid>
-//           <Typography variant="subtitle1">${price}</Typography>
-//         </Grid>
-//       </Paper>
-//     </div>
-//   );
-// }
 
 const Product = ({ image, title, price, description, category }) => {
   const classes = useStyles();
